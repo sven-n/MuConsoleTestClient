@@ -6,7 +6,7 @@ I wrote this tool to demonstrate how easy it is to write network based tools wit
 
 It encapsulates most of the packet creation and parsing for you, so you don't have to mess around with bits and bytes yourself.
 
-Additionally, it's written for the best network performance you can get on .NET. It makes heavy use of ```Span<T>``` and ref structs for packets. The package ```MUnique.OpenMU.Network``` makes use of ```System.IO.Pipelines```.
+Additionally, it's written for the best network performance you can get on .NET. It makes heavy use of ```Span<T>``` and ref structs for packets. The package [MUnique.OpenMU.Network](https://github.com/MUnique/OpenMU/tree/master/src/Network) makes use of ```System.IO.Pipelines```.
 
 ## Licensing ##
 This project is released under the MIT license (see LICENSE file).
